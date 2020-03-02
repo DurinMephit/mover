@@ -1,0 +1,89 @@
+h1,
+h2 {
+  text-align: center;
+}
+
+h1,
+h5 {
+  font-weight: bold;
+}
+
+p {
+  text-align: justify;
+}
+
+span.line {
+  display: inline-block;
+}
+
+body {
+  background-color: black;
+  font-family: "Courier New", Courier, mono !important;
+}
+
+.wrapper {
+  border-width: 0;
+}
+
+.header {
+  background-color: #f7b507;
+  text-shadow: 0 0 4px white;
+  border-bottom-color: black;
+}
+
+.content {
+  background-color: #efd6a4 !important;
+}
+
+.achievement {
+  background-color: #d6bd94;
+}
+
+h2 {
+  color: #730800;
+}
+
+a {
+  color: #4785b8;
+}
+
+a:hover {
+  color: #556f8a;
+}
+
+.pop {
+  border-bottom: 1px dotted #393984;
+}
+
+.popover {
+  font-family: "Courier New", Courier, mono;
+}
+
+.popover-body {
+  background-color: #393984;
+  color: white !important;
+}
+
+.popover[x-placement^="left"] > .arrow:after {
+  border-left-color: #393984 !important;
+}
+
+.popover[x-placement^="right"] > .arrow:after {
+  border-right-color: #393984 !important;
+}
+
+.popover[x-placement^="top"] > .arrow:after {
+  border-top-color: #393984 !important;
+}
+
+.popover[x-placement^="bottom"] > .arrow:after {
+  border-bottom-color: #393984 !important;
+}
+
+.popover a {
+  color: #98b4cc;
+}
+
+.popover a:hover {
+  color: #4785b8;
+}
