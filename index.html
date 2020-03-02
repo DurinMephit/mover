@@ -10,7 +10,7 @@
     />
     <meta name="author" content="aqua" />
 
-    <link rel="stylesheet" type="text/css" href="bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="lib/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
 
@@ -224,13 +224,10 @@
       </div>
     </div>
 
-    <script type="text/javascript" src="jquery.js"></script>
-    <script type="text/javascript" src="popper.js"></script>
-    <script type="text/javascript" src="bootstrap.js"></script>
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/popper.js"></script>
+    <script type="text/javascript" src="lib/bootstrap.js"></script>
     <script type="text/javascript">
-      $(function() {
-        $('[data-toggle="popover"]').popover();
-      });
       function timeoutHidePopover(_this) {
         setTimeout(() => {
           if (!$(".pop:hover").length && !$(".popover:hover").length) {
