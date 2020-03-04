@@ -1,0 +1,239 @@
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+v Build 918.OpenUru#153 - 2020/02/20 - Chogon
+v https://discordapp.com/channels/341414079673401346/354051647133057024/680131066480033899
+v
+
+In this update Build 918.OpenUru#153:
+  + Status message on UruLauncher and the login screen now works!
+  + Limiting marker games to 300 markers
+Thanks to the fan testers: DAVE, aqua, Korovev, Adam, grandbadbil, rarified and Tel
+And I forgot, big thanks to Mirphak for initial marker game testing!
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+v Build 918.OpenUru=139 - 2019/11/21 - Chogon
+v https://mystonline.com/forums/viewtopic.php?f=36&t=29212
+v
+
+Hi all!
+
+It has been a long time since the last update to MOULa. This update will be the start of many more updates that will include fan created content! Thanks to all the fans that created these updates and to all the fans that have worked on getting these updates to MOULa (which involves lots of people!).
+
+If you have trouble getting this update be sure to set "Run as Administrator" on the file UruLauncher.exe. For more information, take a look at:
+https://mystonline.com/forums/viewtopic.php?f=40&t=19424
+
+Here is what is in this update:
++Client changes:
++ Physics compatibility with Korman created Ages (PR533 and PR555 from H'Uru)
++KI art changes by Adam Johnson
++ Fixed miniKI text chat scaling to be resolution independent
++ Fixed "text x-raying" in the Big KI
++ Hid the blackbar handles that are visible on ultrawide resolutions
++ Restored the Big KI background noise animation
++ Updated the Terms of Service/End User License Agreement
++ Updated the Zandi Radio music to replace copyrighted material
++ Updated Tomahna end credits music, removed copyrighted material
+NOTE:The client does not automatically update the uncompressed music when
+updated. Delete the file sfx/streamingCache/clftZandiRadio_Loop.wav
+to hear the new music.
+
+Thanks!
+The entire MOULa team (both inside and outside of Cyan Worlds, Inc)
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+v Build 918.OpenUru=138 - 2017/06/07 - Chogon
+v https://mystonline.com/forums/viewtopic.php?f=36&t=28642
+v
+
+There is a new update to the client, that you will automatically download if you are using the standard (external) client. This is another build that was created by the fans!
+
+There were a number of very important fixes and updates. They are:
++ Fixed crash when support.cyan.com server is down!!!
++ Fixed stuck-in-intro-cave bug!!!
++ Fixed KI chat scrolling issues
++ Fixed forgotten logins when removable media attached
++ Added Shadowed Chat and Player List Text
++ Added bumping a public neighborhood to top of list when visited
++ Removed the stickiness of neighborhoods (because of the above fix)
++ Added second confirmation dialog on avatar deletion
++ Added KI command for deleting age journal folders. For example "/deletefolder Bevin"
++ Changed password hash to be more uniform
+
+The last item was to help with the new account creation process that I am still working on. Hopefully, it won't be too much longer before we can re-open account creations.
+
+Thanks and enjoy,
+Chogon
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+v Build 918.OpenUru#131 (a & b) - 2016/11/16 - Chogon
+v https://mystonline.com/forums/viewtopic.php?f=36&t=28506
+v
+
+The last two updates were very small and did *not* include an update to the client or python code.
+
+(a) Added new short sleeve T-shirt logo for GoWIZ
+(b) Added new long sleeve T-shirt and hoodie logo for GoWIZ
+Both updates provided by Zesty of Xeniphers.
+
+Enjoy,
+Chogon
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+v Build 918.OpenUru#131 - 2015/12/22 - Chogon
+v https://mystonline.com/forums/viewtopic.php?f=36&t=28143
+v
+
+Hi Explorers,
+
+When the last update happen (Build 918.0.1) we had thought the “log-jam” would be released and there would be an avalanche of updates. Well, as it turned out, the client being built by Cyan created another log-jam that prevented moving forward.
+
+This build includes a client that is *completely* built by fans on the OpenUru.org Jenkins build system, that was setup by rarified. http://foundry.openuru.org/jenkins/job/CWE-ou-Compile/131/
+
+There are no changes in this build compared to 918.0.1 It is really a verification of the new build process that should make fan updates *much* easier and release the log-jam. As a matter of fact, there is an update in the pipeline that is being tested on Minkata right now http://www.mystonline.com/forums/viewtopic.php?f=5&t=25348&start=134
+
+Enjoy,
+Chogon
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+v Build 918.0.1 - 2015/02/03 - Chogon
+v https://mystonline.com/forums/viewtopic.php?f=36&t=27743
+v
+
+Hi Explorers,
+
+It has been a long time since we've had any updates but today is the start of releasing the log-jam ;-)
+We have a new process for making new builds for MOULa that will allow updates from the fan developers to happen a *lot* more easily and hopefully a lot more often.
+
+There are several future planned updates but todays update Build 918.0.1 may be a small one in size but is big as it helped prove the new update process.
+
+Here is what is new in Build 918.0.1:
+- New clothing options! - provided by Chloe Rhodes
+
+Note about the numbering: The first number is the Cyan build number (in this case 918). This number may stay the same for a while. The second number is a client/python update (in this case is 0). The last number is the asset/data update (in this case is 1). Right now, the only place you can see this number is in ReleaseNotes.txt (that you can view in-game in the “wrench”)
+
+Enjoy,
+Chogon
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+v Build 918 - 2013/06/11 - Chogon
+v https://mystonline.com/forums/viewtopic.php?f=36&t=26572
+v
+
+Hi everyone,
+
+It was a little touch and go but Build 918 is another successful update from some very skilled fan developers!
+It has been just over a year since the last update. Hopefully, the updates will be more regular.
+
+A list of some of the developers for this update: Lyrositor, Skoader, AdamJohnson, Deledrius, Christian Walther, D'Lanor and boq. And I'm sure that there are countless others that have helped as well.
+
+Special thanks to Christian Walther, Mac_Fife, rarified, JWPlatt, Tai'lahr and Janaba (as well as Tor'i, Dexter and Mike of course) for helping with the verification during the update.
+
+Here is a list of fixes that are in this build:
+- Allow clickables while sitting or AFK
+- Fixed various JPEG issues (see special note below)
+- Free the cursor
+- Fixed improper calculated initial window size
+- Improved cursor
+- Removed broken share from Sharper's Office link
+- Fixed GreatZero stain glass to be random
+- Avatar physics overhaul (affecting leaves in Kadish, rocks in Teledahn and much much more)
+- Fixed pellet point stealing
+- Fixed some security risks (ask a low-level NSA contractor for details)
+- Bink removed!!! (The Cyan logo and the Yeesha intro movie will no longer play)
+
+Please go to http://wiki.openuru.org/index.php?title=Minkata_Shard:_Contributions_Uplifted_by_Cyan_Worlds for more detail.
+
+Special note: Because the JPEG has been updated existing avatar portraits will disappear from the avatar selection screen by this change, run your favorite KI picture fixer http://web.archive.org/web/20090816210742/http://en.mystlore.com/wiki/Myst_Online:_Uru_Live_KI_image_bug on them to get them back.
+
+Also, there may be some bucket damage in Teledahn…
+
+Thanks,
+Chogon
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+v Build 912 - 2012/05/29 - Chogon
+v https://mystonline.com/forums/viewtopic.php?f=36&t=25730
+v
+
+Hi everyone,
+
+Build 912 is another successful update from the fan developers! There is some really good new features added like cut and paste to the KI!. As well as many bugs squished.
+Special thanks to Christian Walther and Mac_Fife for helping with the verification during the update.
+
+Here is a list of fixes that are in this build:
+- Fix for the Er'cana bakery elevator getting stuck permanently
+- Relto visitors should not see blank pages in the city book
+- Make Calendar Star SDL Consistent
+- Fix inconsistent behavior of city book clasp
+- Fix unclickable left-arrow in KI when destination is top of category list
+- Improve Big KI player list sorting
+- Fix the fearless quabs bug
+- Improved video resolution code
+- Allow plNotify variable events to carry integers in addition to floats & Replace bookshelf workaround by improved fix
+- Disable broken bahro stone share symbols
+- Avatar clothing fix
+- Basic clipboard functionality
+- DST Fix
+- Fix Landing Behaviors
+- Fix an Aspect Ratio Assumption
+
+Please go to http://wiki.openuru.org/index.php?title=MOULa_Update_2012-05-29_Verification for more detail.
+
+Thanks,
+Chogon
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+v Build 906 - 2012/03/26 - Chogon
+v https://mystonline.com/forums/viewtopic.php?f=36&t=25583
+v
+
+This is a small but urgent build to fix a newly uncovered problem.
+For most newly created avatars the bookshelf linking books would not work. This is now fixed with this build.
+
+Thanks,
+Chogon
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+v Build 905 - 2012/02/08 - Chogon
+v https://mystonline.com/forums/viewtopic.php?f=36&t=25435
+v
+
+We are getting ready to release Build 905! There are several fixes and new features - but the biggest is the fixing of the Minkata sparkie! Most all of these updates were created by fans and their efforts are very much appreciated by Cyan Worlds but mostly by everyone who plays MOULa.
+
+The current plan is to do the update during next Monday's (Feb 13th, 2012) server restart. This will mean that the MOULa outage will be a bit longer as we do the update. Watch for Dexter's or Tor'i's MOULa Outage message.
+
+And a very big special note: The OpenUru Minkata Test Shard was a tremendous help in keeping Cyan Worlds MOULa's costs down. This has 1) cut down my time/cost by only getting working changes (iterations are a time killer), 2) cut down the Cyan World's internal QA team costs in that they only have to do a verification of changes and 3) cut down server costs since we didn't have to create a beta test server. So, a big thanks! to all the people involved in the OpenUru Minkata Test Shard! Including all the testers!
+
+Thanks,
+Chogon
+
+Changes in the 905 build:
+- From Christian Walther:
+    Bugfix - Relto books will open to last page viewed (previously only worked for the first two pages)
+    Bugfix - Fixed egg room private channel and Teledahn buckets for newer versions of Python (precautionary change)
+    Bugfix - Fix a potential crash when resizing SDL tuples, if ever used (precautionary change)
+- From Cyan Worlds, D'Lanor and Robert The Rebuilder:
+    Bugfix - The Minkata sparklie fix!
+- From D'Lanor:
+    Bugfix - Remove players from private egg room chat channel if they link out
+    Feature - Unknown senders of buddy messages are added to the Recents lists
+    Bugfix - Phil's Relto hut camera no longer affects others when a player disengages the bookshelf
+- From Adam Johnson:
+    Bugfix - Fixed Jalak column saving/loading
+- From Cyan Worlds:
+    Feature - A "Donate" button has been added to the game login dialog
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+v Build 902 - 2011/04/15 - Chogon
+v https://mystonline.com/forums/viewtopic.php?f=36&t=24583
+v
+
+We are already reaping benefits from MOULa open source! Almost all of today's update has been provided by fans.
+
+- Security fixes provided by the "Grey Hats"
+- "Bevin" name changed to "Hood" as provided by dragossh (the name was kept short to fit all text fields). But as D'Lanor pointed out only new neighborhoods will get the name "Hood".
+- and a small hidden change by me for future stuff.
+
+Hopefully, more to come...
+
+Thanks,
+Chogon

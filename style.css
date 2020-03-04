@@ -1,5 +1,6 @@
 h1,
-h2 {
+h2,
+h5 {
   text-align: center;
 }
 
@@ -10,6 +11,7 @@ h5 {
 
 p {
   text-align: justify;
+  text-align-last: center;
 }
 
 span.line {
@@ -36,7 +38,7 @@ body {
 }
 
 .achievement {
-  background-color: #d6bd94;
+  background-color: #d6bd94 !important;
 }
 
 h2 {
@@ -51,8 +53,24 @@ a:hover {
   color: #556f8a;
 }
 
+.achievement ul {
+  list-style: none;
+}
+
+.single {
+  text-align: justify;
+}
+
+.achievement li.nomoula:before {
+  content: "▢ ";
+}
+
+.achievement li.moula:before {
+  content: "▧ ";
+}
+
 .pop {
-  border-bottom: 1px dotted #393984;
+  border-bottom: 1px dotted black;
 }
 
 .popover {
@@ -62,6 +80,8 @@ a:hover {
 .popover-body {
   background-color: #393984;
   color: white !important;
+  text-align: justify;
+  text-align-last: center;
 }
 
 .popover[x-placement^="left"] > .arrow:after {
@@ -86,4 +106,23 @@ a:hover {
 
 .popover a:hover {
   color: #4785b8;
+}
+
+.progress-bar-gow {
+  background-color: #f7b507;
+  color: black;
+}
+
+.progress-bar-openuru {
+  background-color: #4785b8;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+@media (min-width: 768px) {
+  img {
+    max-width: 50% !important;
+  }
 }
