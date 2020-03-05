@@ -658,27 +658,36 @@
     <script src="lib/popper.js"></script>
     <script src="lib/bootstrap.js"></script>
     <script>
-      function timeoutHidePopover(_this) {
-        setTimeout(() => {
-          if (!$(".pop:hover").length && !$(".popover:hover").length) {
+      const timeoutIDs = new WeakMap();
+      function stopTimeout(_this) {
+        if (timeoutIDs.has(_this)) clearTimeout(timeoutIDs.get(_this));
+        timeoutIDs.delete(_this);
+      }
+      function startTimeout(_this) {
+        timeoutIDs.set(
+          _this,
+          setTimeout(() => {
             $(_this).popover("hide");
-          }
-        }, 0);
+            timeoutIDs.delete(_this);
+          }, 300)
+        );
       }
       $(".pop")
         .popover({
           toggle: "popover",
-          trigger: "click",
           placement: "auto",
           html: true,
           animation: false
         })
         .on("mouseenter", function() {
+          stopTimeout(this);
           $(this).popover("show");
-          $(".popover").on("mouseleave", () => timeoutHidePopover(this));
+          $($(this).data("bs.popover").tip)
+            .on("mouseenter", () => stopTimeout(this))
+            .on("mouseleave", () => startTimeout(this));
         })
         .on("mouseleave", function() {
-          timeoutHidePopover(this);
+          startTimeout(this);
         });
     </script>
   </body>
