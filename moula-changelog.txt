@@ -1,4 +1,20 @@
 vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+v Build 918.OpenUru#159 - 2020/05/26 - Chogon
+v https://discord.com/channels/341414079673401346/666793701296570378/715278023028637797
+v
+
+Thanks to all the fan devs that help create, build and test this update! You guys are amazing!
+Release notes for the OpenUru#159 build:
++ Win10 mouse handling fix
++ Increased the avatar step offset by a tenth of a foot (less tripping)
++ Panic link fixes
++ Lots of internal engine fixes
++ Physics update
++ Build improvements and changes
++ Upgraded Database minor release
++ One step closer to new fan content!
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
 v Build 918.OpenUru#153 - 2020/02/20 - Chogon
 v https://discordapp.com/channels/341414079673401346/354051647133057024/680131066480033899
 v

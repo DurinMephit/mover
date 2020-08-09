@@ -42,20 +42,17 @@
             <h2 class="card-title">Our Cavern</h2>
             <p class="card-text">
               Since the DRC left D’ni in our hands in 2011, we have been the de
-              facto caretakers of the history and culture. There were promises
+              facto caretakers of its history and culture. There were promises
               of large explorer involvements - allowing anything from new
-              stories being told to problems being fixed and whole new areas
-              being opened up. But what have we seen from this? Although much
-              work has been done by explorers, only few effects are felt in the
-              cavern. Why is this?
+              stories being told to technical problems being fixed and whole new areas
+              being opened up. What have we seen from this so far?
             </p>
           </li>
 
           <li class="list-group-item card-body content">
             <h2 class="card-title">Some History</h2>
             <p>
-              To understand the current situation, we have to know how we got
-              here. Three important groups within the Uru volunteer community
+              Three important groups within the Uru volunteer community
               are H'uru, the Guild of Writers, and OpenUru.
             </p>
 
@@ -116,7 +113,8 @@
                       As part of the open-source release of Uru, Cyan created
                       the OpenUru group. Currently consisting of two members, OU
                       is entrusted with the oversight of the open-source effort.
-                      All changes to the official game must go through the OpenUru pipeline.
+                      All changes to the official game must go through the
+                      OpenUru pipeline.
                     </p>
                   </div>
                 </div>
@@ -163,7 +161,7 @@
               been
               <span
                 class="font-weight-bold pop"
-                data-content="A full list of all improvements made to
+                data-content="A more comprehensive list of all improvements made to
                 open-source MOULa can be found
                 <a href='moula-changelog.txt' target='_blank'>here</a>."
               >
@@ -182,12 +180,12 @@
                     <ul class="card-text pl-0">
                       <li class="moula">
                         Funding status in launcher
+                      <li class="moula">
+                        PhysX problems fixed
+                      </li>
                       </li>
                       <li class="nomoula">
                         Straightforward registration and download
-                      </li>
-                      <li class="nomoula">
-                        PhysX problems fixed
                       </li>
                       <li class="nomoula">
                         <span
@@ -274,7 +272,7 @@
                       <li class="moula">
                         Add buddy message senders to recent list
                       </li>
-                      <li class="nomoula">Cursor problems fixed</li>
+                      <li class="moula">Cursor problems fixed</li>
                     </ul>
                   </div>
                 </div>
@@ -316,6 +314,13 @@
                       <li class="nomoula">
                         <span
                           class="pop"
+                          data-content="Perform a random die roll (with optional die notation like <i>/roll 5d20</i> or <i>/roll fate</i>). <a href='https://www.youtube.com/watch?v=KelS7j56T_c' target='_blank'>Example video.</a>"
+                        </span>
+                        New chat command: <i>/roll</i>
+                      </li>
+                      <li class="nomoula">
+                        <span
+                          class="pop"
                           data-content="The sound quality of voice chat has been greatly improved: <a href='assets/voice-chat-old.mp3' target='_blank'>old</a> vs <a href='assets/voice-chat-new.mp3' target='_blank'>new</a> (the clicks are artefacts of the recording)."
                         >
                           Improved voice chat quality
@@ -353,9 +358,9 @@
                         >
                           over 150 fan Ages/areas</span
                         >
-                        have been created. A handful of these have been
-                        deemed fit for integration into D'ni and of sufficiently
-                        high quality for release on the public
+                        have been created. A handful of these have been deemed
+                        fit for integration into D'ni and of sufficiently high
+                        quality for release on the public
                         <a
                           href="https://www.guildofwriters.org/gehn/"
                           target="_blank"
@@ -369,7 +374,7 @@
                         >, and
                         <a href="assets/messengers-pub.png" target="+blank"
                           >new areas of the D’ni city</a
-                        >.
+                        >. Recent developments suggest that some of these areas will be added to MOULa very soon.
                       </li>
                     </ul>
                   </div>
@@ -480,6 +485,12 @@
                       <li class="nomoula">
                         Unit testing framework
                       </li>
+                      <li class="nomoula">
+                        Conversion to Python 3.8
+                      </li>
+                      <li class="nomoula">
+                        Conversion to PhysX 4.1 <small>(in progress)</small>
+                      </li>
                       <li class="moula">
                         Fix many bugs
                       </li>
@@ -494,142 +505,7 @@
           </li>
 
           <li class="list-group-item card-body content">
-            <h2 class="card-title">The Missing Link</h2>
-            <p class="card-text">
-              Given all of these great achievements, and the intention that Cyan
-              voiced to open Myst Online up for community involvement, one may
-              wonder why only so few of the achievements have been accepted onto
-              the official MOULa server.
-            </p>
-            <p>
-              Software development is hard, even when all people involved are
-              passionate about the project. However, it seems that
-              <span class="font-weight-bold"
-                >over the last decade, OpenUru has been a bottleneck for MOULa
-                development</span
-              >. They are working with a very small and closed team and it is
-              difficult for others to contribute from the outside.
-            </p>
-            <p>
-              To illustrate the amount of work that is being withheld from
-              implementation on MOULa, examine one of the largest components of
-              open source Uru: the client engine. The below shows the
-              <span
-                class="pop"
-                data-content="The size of the discs is based on the amount of commits in all branches of the <a href='https://github.com/H-uru/Plasma' target='_blank'>H'uru</a> and <a href='https://bitbucket.org/OpenUru_org/cwe-ou/' target='_blank'>OpenUru</a> projects respectively. The overlap is a guess: although H'uru will generally incorporate work from OpenUru, there are exceptions (like merge commits)."
-              >
-                relative amount</span
-              >
-              of
-              <span
-                class="pop"
-                data-content="A 'commit' is a unit of work in the <a href='https://git-scm.com/' target='_blank'>git</a> software version control system. They can represent anywhere from small to large changes to the software."
-              >
-                commits</span
-              >
-              created by OpenUru and H'uru respectively (227 and 2241) since
-              2011. The OpenUru portion represents what is in MOULa, all else has not been accepted yet.
-            </p>
-            <img
-              src="assets/chart.png"
-              class="img-fluid mb-3 mx-auto d-block"
-            />
-            <p>
-              Also of note is the largest gap in time between consecutive
-              commits to the respective client engine projects, visualised in
-              time below. This shows how the OpenUru project at one point lay
-              dormant for nearly two years, while the largest hiatus for the
-              H'uru project lasted four months.
-            </p>
-            <!-- Updated on 3 Mar 2020 -->
-            <div class="progress mb-3" style="height: 100px">
-              <div
-                class="progress-bar bg-light text-dark text-left achievement"
-                role="progressbar"
-                style="width: 45%"
-              >
-                ◁ 2011
-              </div>
-              <div
-                class="progress-bar progress-bar-openuru"
-                role="progressbar"
-                style="width: 21%"
-              >
-                OpenUru
-              </div>
-              <div
-                class="progress-bar bg-light achievement"
-                role="progressbar"
-                style="width: 3%"
-              ></div>
-              <div
-                class="progress-bar progress-bar-gow"
-                role="progressbar"
-                style="width: 4%; writing-mode: vertical-lr; transform: rotate(-180deg);"
-              >
-                H'uru
-              </div>
-              <div
-                class="progress-bar bg-light text-dark text-right achievement"
-                role="progressbar"
-                style="width: 27%"
-              >
-                2020 ▷
-              </div>
-            </div>
-            <hr />
-            <p class="font-weight-bold">
-              The current environment is detrimental to the health of
-              open-source MOULa in several ways.
-            </p>
-            <ol>
-              <li>
-                Regular players on MOULa do not get to experience the
-                improvements and new features that exist out there, leading to
-                lower engagement, player numbers, and
-                <span
-                  class="pop"
-                  data-content="We know from Cyan that donations do not cover costs for most months."
-                >
-                  donations</span
-                >.
-              </li>
-              <li>
-                Interested contributors and builders are discouraged by the lack
-                of progress and eventually leave the community. Only a fraction
-                of the original Guild of Writers is still working actively
-                today.
-              </li>
-              <li>
-                It leads to a fracturing of the community as there is no single
-                official shard where the improvements and new content can be
-                found.
-              </li>
-            </ol>
-          </li>
-
-          <li class="list-group-item card-body content">
             <h2 class="card-title">How to Proceed</h2>
-            <p class="card-text">
-              Anyone putting any time and effort into this obscure project must
-              be doing it as a labour of love. And rightly so! Uru has the
-              potential to become a truly unique place within the gaming
-              landscape. But it will not make good on its open-source promise if
-              those who want to contribute are not given the possibility to do
-              so.
-            </p>
-            <p>
-              Ideally, OpenUru would open up and create an easier environment
-              for Uru collaboration. If such changes do not occur,
-              plans must be made to
-              create an alternative to the OpenUru pipeline, so that more
-              independence and openness can be achieved. Among other things,
-              this would involve
-              <span class="font-weight-bold"
-                >a collectively-run staging server</span
-              >. If you are interested in being part of these developments,
-              please get in touch with the GoW!
-            </p>
             <p class="card-text">
               Do you want to see all of the above achievements and more
               incorporated into MOULa? Let people know! Go onto
@@ -663,7 +539,7 @@
       </div>
       <p>
         <small class="text-light">
-          updated 2020/03/05 • by aqua • KI# 09061559
+          updated 2020/08/09 • by aqua • KI# 09061559
         </small>
       </p>
     </div>
@@ -691,16 +567,16 @@
           toggle: "popover",
           placement: "auto",
           html: true,
-          animation: false
+          animation: false,
         })
-        .on("mouseenter", function() {
+        .on("mouseenter", function () {
           stopTimeout(this);
           $(this).popover("show");
           $($(this).data("bs.popover").tip)
             .on("mouseenter", () => stopTimeout(this))
             .on("mouseleave", () => startTimeout(this));
         })
-        .on("mouseleave", function() {
+        .on("mouseleave", function () {
           startTimeout(this);
         });
     </script>
