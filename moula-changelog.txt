@@ -1,4 +1,20 @@
 vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+v Build 918.OpenUru#172 - 2020/08/18 - Chogon
+v https://discord.com/channels/341414079673401346/666793701296570378/745391978354835467
+v
+
+This has been a long time coming! There were lots of fans involved in this update each with different talents. All the way from the content creators, to the coders, to the build masters, to the testers. And one that worked until the wee hours this morning! And a special thank you to the cheerleaders that kept everyone going!
+Release notes for OpenUru#172 build:
++ New UruLauncher (patcher) update process and will now run required installers
++ Several small engine changes
++ Engine built with VS2010
++ Fixed several crashes on exit
++ Fixed KI text handling issues (size on high res displays)
++ Added KI command /roll for Unwritten game
++ Intro movie
++ Something new to discover!
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
 v Build 918.OpenUru#159 - 2020/05/26 - Chogon
 v https://discord.com/channels/341414079673401346/666793701296570378/715278023028637797
 v
