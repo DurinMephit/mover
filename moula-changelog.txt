@@ -1,4 +1,45 @@
 vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+v Build 918.OpenUru#183 - 2021/02/18 - Chogon
+v https://discord.com/channels/341414079673401346/666793701296570378/812032466113658991
+v
+
+OpenUru#183 build Update
++ UruExplorer build improvements (behind the scenes stuff)
++ Lighting enhancements for Chiso Preniv, Veelay Tsahvahn and Guild of Messengers' Pub
++ Seasonal updates for Guild of Messengers' Pub
++ Heritage Documents added to the Chiso Preniv bookshelves.
++ Fix for Teledahn Workroom machinery sounds to track power state
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+v QuickPatch - 2020/12/02 - Chogon
+v https://discord.com/channels/341414079673401346/666793701296570378/783768442074300486
+v
+
+QuickPatch
++ Updates to the VeeTsah journals
++ Minor number upgrade applied to database
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+v Build 918.OpenUru#173a - 2020/10/01 - Chogon
+v https://discord.com/channels/341414079673401346/666793701296570378/761279713263878216
+v
+
+OpenUru#173a build Update
++ Fixed issue where Nexus public Neighborhood list would sometimes not show a Neighborhood when it should.
++ Fixed issue with uploading pictures to imagers.
++ Fixed "Toe stubbing" in A'egura, Ercana, Great Zero, Kadish, Neighborhoods and Relto
+NOTE: The client window title will still read "OpenUru#173" because the client was not updated this time.
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+v Build 918.OpenUru#173 - 2020/08/25 - Chogon
+v https://discord.com/channels/341414079673401346/666793701296570378/747866331130364055
+v
+
+Release notes for OpenUru#173 build:
++ Fixed another crash on exit
++ Fixed journal in VeeTsah
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
 v Build 918.OpenUru#172 - 2020/08/18 - Chogon
 v https://discord.com/channels/341414079673401346/666793701296570378/745391978354835467
 v
